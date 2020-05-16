@@ -14,27 +14,24 @@ const codes = [
 
 
 
-function init() {
-  
-  document.body.addEventListener('keydown', (event) =>{
-  
-  //variable for keypresses  
-  const key = event.key;
-
-  //index increments at 0 initially
-  let index = 0;
-  if (key === codes[index]){
-    index++;
-    //increments index after each key that's press that is correct
-    if(index === codes.length){
-      alert("KONAMI!!! ");
-      index = 0;
+function init(){
+  let index = 0
+  function onKeyDownHandler(e){
+    const key = e.key;
+    
+    if(key === codes[index]){
+      index++;
+      
+      if (index === codes.length){
+        alert("TOP KEK!!!");
+        index =0
+      } 
+    }else{
+      index =0;
+      
     }
-  } else {
-    index = 0;
   }
-  console.log(key);
-}, true);
+
 }
 
 init()
