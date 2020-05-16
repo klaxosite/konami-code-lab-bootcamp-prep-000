@@ -17,9 +17,11 @@ const codes = [
 function init() {
   
   document.body.addEventListener("keydown", (event) =>{
-    
+  
+  //variable for keypresses  
   const key = event.key;
   let index = 0;
+  
   if (key === codes[index]){
     index++;
     if(index === codes.length){
