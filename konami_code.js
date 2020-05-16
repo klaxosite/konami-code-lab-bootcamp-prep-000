@@ -34,7 +34,7 @@ function init() {
     index = 0;
   }
   document.getElementById('log').textContent += $('event.key');
-console.log(key)
+console.log('key', key)
 }, false);
 }
 
