@@ -27,7 +27,7 @@ function init() {
     if(index === codes.length){
       alert("KONAMI!!! ");
       index = 0;
-    }
+    }1`Int16Array
   } else {
     index = 0;
   }
