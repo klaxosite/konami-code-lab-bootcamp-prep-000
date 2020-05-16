@@ -20,9 +20,12 @@ function init() {
   
   //variable for keypresses  
   const key = event.key;
+  
+  //index increments at 0 initially
   let index = 0;
   if (key === codes[index]){
     index++;
+    //increments index after each key that's press that is correct
     if(index === codes.length){
       alert("KONAMI!!! ");
       index = 0;
