@@ -11,24 +11,24 @@ const codes = [
   "a"
 ];
 
-let index = 0
+let index = 0;
 
 
 function init() {
   
-  // your code here
+  document.body.addEventListener("keydown") => {
   function onKeyDownHandler(e){
-  const key = e.key
+  const key = e.key;
   
   if (key === alphabet[index]){
     index++;
     if(index ===alphabet.length){
-      alert("KONAMI!!! ")
-      index = 0
+      alert("KONAMI!!! ");
+      index = 0;
     }
   } else {
-    index = 0
+    index = 0;
   }
 }
 }
-
+}
