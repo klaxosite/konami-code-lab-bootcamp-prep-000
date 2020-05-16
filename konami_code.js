@@ -20,7 +20,7 @@ function init() {
   
   //variable for keypresses  
   const key = event.key;
-  event.stopPropagr
+  event.stopPropagation();
   //index increments at 0 initially
   let index = 0;
   if (key === codes[index]){
