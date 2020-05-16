@@ -34,6 +34,6 @@ function init() {
     index = 0;
   }
   console.log('key', key);
-}, false)
+}, false);
 }
 
