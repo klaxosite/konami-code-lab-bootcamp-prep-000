@@ -33,7 +33,7 @@ function init() {
   } else {
     index = 0;
   }
-  document.getElementById('log').textContent += $('event.key')
+  document.getElementById('log').textContent += $('event.key');
   console.log('key', key);
 }, false);
 }
