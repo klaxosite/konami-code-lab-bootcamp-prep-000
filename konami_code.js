@@ -33,6 +33,7 @@ function init() {
   } else {
     index = 0;
   }
+  document.getElement
   console.log('key', key);
 }, false);
 }
