@@ -25,7 +25,7 @@ function init(){
       index++;
       
       if (index === codes.length){
-        alert("TOP KEK!!!");
+        alert('Hurray');
         index =0
       } 
     }else{
