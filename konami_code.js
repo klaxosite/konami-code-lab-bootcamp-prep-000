@@ -11,15 +11,15 @@ const codes = [
   "a"
 ];
 
-let index = 0;
+
 
 
 function init() {
   
-  document.body.addEventListener("keydown", onKeyDownHandler)
+  const test = document.body.addEventListener("keydown", onKeyDownHandler)
   function onKeyDownHandler(e){
   const key = e.key;
-  
+  let index = 0;
   if (key === alphabet[index]){
     index++;
     if(index ===alphabet.length){
