@@ -38,3 +38,4 @@ console.log('key');
 }, false);
 }
 
+init()
