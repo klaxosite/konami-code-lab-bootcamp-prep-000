@@ -20,9 +20,9 @@ function init() {
   function onKeyDownHandler(e){
   const key = e.key;
   let index = 0;
-  if (key === alphabet[index]){
+  if (key === codes[index]){
     index++;
-    if(index ===alphabet.length){
+    if(index === codes.length){
       alert("KONAMI!!! ");
       index = 0;
     }
